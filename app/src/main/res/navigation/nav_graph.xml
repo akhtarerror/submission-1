@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="bangkit.mobiledev.aplikasidicodingeventnavigationdanapi.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/activity_home_fragment" />
+
+    <fragment
+        android:id="@+id/upcomingFragment"
+        android:name="bangkit.mobiledev.aplikasidicodingeventnavigationdanapi.UpcomingFragment"
+        android:label="Upcoming"
+        tools:layout="@layout/activity_upcoming_fragment" />
+
+    <fragment
+        android:id="@+id/finishedFragment"
+        android:name="bangkit.mobiledev.aplikasidicodingeventnavigationdanapi.FinishedFragment"
+        android:label="Finished"
+        tools:layout="@layout/activity_finished_fragment" />
+</navigation>
